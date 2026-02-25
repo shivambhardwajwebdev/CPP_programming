@@ -1,1 +1,6 @@
 '*.o\n*.out\n*.exe\n/build/' 
+output
+.vscode
+*.exe
+main.exe
+
