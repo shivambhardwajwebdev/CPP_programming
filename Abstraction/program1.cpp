@@ -20,7 +20,6 @@ class Derived : public Base{
         cout<<"Derived class fn"<<endl;
     }
     void printVal(void){
-        cout<<"a is : "<<a<<" b is : "<<b<<" c is : "<<c<<" d is : "<<d<<endl;
     }
      
 };
