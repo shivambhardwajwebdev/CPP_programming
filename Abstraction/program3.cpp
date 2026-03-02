@@ -1,12 +1,14 @@
 // Friend function and classes 
 #include <iostream>
 using namespace std;
+class B;// b has to be defined to use it in as friend of B before writing friend B
 class A{
     private:
     int gamma;
     public:
     int x,y;
-    friend B; //
+    friend B; // it not make the two classes to be friend to each other 
+    //it means class B become friend of A 
 };
 class B{ //has-a relationship
     public :
